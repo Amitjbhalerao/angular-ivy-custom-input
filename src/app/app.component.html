@@ -1,0 +1,13 @@
+<form [formGroup]="registerForm">  
+
+ <div style="padding-top:20px">
+  <label>Mobile Number</label>
+    <input type="text" [attr.disabled]='flag' [ngClass]="{ 'is-invalid': f.emailId.touched && f.emailId.errors, 'is-valid': f.emailId.valid }" formControlName="emailId"  class="form-control" placeholder="Email" required  >
+    <div *ngIf="f.emailId.touched && f.emailId.errors" class="invalid-feedback">
+      <div *ngIf="f.emailId.errors.required">Email is required!</div>
+      <div *ngIf="f.emailId.errors.pattern">Enter Valid Email ID!</div>
+    </div>
+</div>
+</form>
+
+

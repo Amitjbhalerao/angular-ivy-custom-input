@@ -1,0 +1,58 @@
+input {
+  border-radius: 10px;
+  border: 1px solid #d9d9d9;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+  padding-left: 20px;
+  padding-top: 38px;
+  padding-bottom: 16px;
+  letter-spacing: 0.01em;
+  color: #060452;
+}
+::placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  color: #8e8e94;
+  opacity: 1; /* Firefox */
+}
+div label {
+  position: absolute;
+  padding-top: 16px;
+  padding-left: 20px;
+  font-family: Roboto;
+  height: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #060452;
+}
+input:active {
+  border: 1px solid #060452;
+}
+input[type='text']:focus {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  color: #3735c2;
+  border: 1px solid #3735c2;
+}
+.field {
+  border: 1px solid #060452;
+}
+input:disabled {
+}
+.form-control.is-valid {
+  background-image: url(
+  );
+}
