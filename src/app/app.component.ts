@@ -9,7 +9,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 export class AppComponent {
   name = 'Angular ' + VERSION.major;
   field=true;
-  flag: boolean = true;
+  flag: boolean
   registerForm: FormGroup;
   constructor(private fb: FormBuilder) {}
   ngOnInit() {
